@@ -128,8 +128,8 @@ const Index = () => {
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: black;
-      opacity: 0.5; /* Adjust opacity as needed */
+      background-color: white;
+      opacity: 0.4; /* Adjust opacity as needed */
     }
       .text-shadow-custom {
     text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.6); /* White shadow */
@@ -258,7 +258,7 @@ const Index = () => {
                     </span>
                     About Sanskar Ayush Medicare
                   </span>
-                  <h2>We’re Always Provide Best Services</h2>
+                  <h2>We Always Provide Best Services</h2>
                 </div>
                 <p className="mb-30">
                 We would like to introduce M/s Sanskar Ayush Medicare Pvt. Ltd. as an innovative contract manufacturer / Loan-License facility for your brand’s quality products with us. Established in 2010, the company has played a leading role in utilizing the theory and practice of Ayurveda with the tool of modern science to create world-class Ayurvedic products, Cosmetics, and Neutraceutical third-party manufacturing. The Company had established the plant with international standards with a GMP certificate & recognized by the government of Uttarakhand. We are committed to delivering the right product, at the right time, at the right price to our customers nationally & internationally. Navigate the Ayurvedic manufacturing landscape. Learn how to pick the ideal third-party manufacturer for Ayurvedic products.
@@ -302,7 +302,7 @@ const Index = () => {
                     </span>
                   Services We Provide
                 </span>
-                <h2>Get Ayurvedic thrid party manufecturing with your Brand Name</h2>
+                <h2>Get Ayurvedic third party manufacturing with your Brand Name</h2>
               </div>
             </div>
           </div>
@@ -403,7 +403,7 @@ const Index = () => {
                   />
                   </div>
                   <h5 className="title">Paste</h5>
-                  <p>Sed perspiciatis unde omnis volunteer accusantium</p>
+                  <p>Ayurvedic immunity booster for health, energy, and wellness.</p>
                   <div className="row gap-3 pl-3">
                     <p className="bg-gray-300 px-2 rounded-sm ">Avaleha</p>
                     <p className="bg-gray-300 px-2 rounded-sm ">chyawanprash</p>
@@ -522,18 +522,16 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <br /> <br /><br /> <br /><br />
+
       {/*====== End services Section ======*/}
 
-           {/*====== Start Gallery Section ======*/}
-           <section className="gallery-section-minus p-r z-2">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              {/*====== Section Title ======*/}
-              <div className="section-title mb-50 pr-lg-70 wow fadeInLeft">
-                
-                <span className="sub-title">
+      {/*====== Start Gallery Section ======*/}
+      <section className="gallery-section mt-5">
+      <div className="section-title mb-55 wow fadeInLeft">
+                <span className="sub-title" style={{display: "flex", 
+    alignItems: "center", 
+    justifyContent: "center", 
+}}>
                 <span>
                     <img
                   src="assets/images/logo/logo.png"
@@ -541,171 +539,187 @@ const Index = () => {
                   style={{height: "30px", width:"30px"}}
                 />
                     </span>
-                  Photo Gallery
+                  Explore Our Gallery.
                 </span>
-                <h2>Look Our Production From Insides</h2>
+              </div>
+        <div className="container-fluid">
+          {/*====== Gallery Slider ======*/}
+          <Slider
+            {...sliderProps.projectsSliderTwo}
+            className="projects-slider-two wow fadeInDown"
+          >
+            {/*====== Project Item ======*/}
+            
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-1.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              {/*====== Project Content Box ======*/}
-              <div className="project-content-box mb-50 pl-lg-100 wow fadeInRight">
-                <p className="mb-35">
-                
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-2.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
 
-Discover our gallery featuring high-quality products, advanced manufacturing processes, and a commitment to excellence. Explore images that highlight our expertise, innovation, and dedication to delivering the best solutions.
-                </p>
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-3.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-4.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+     
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-5.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+             
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-6.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                   
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-14.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-8.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-9.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             {/*====== Project Item ======*/}
+
+             <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery-sankar/gl-10.png" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn" style={{height:"20px",width:"30px"}}>
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className=" text-white text-center">
+                    
+                    <p>Gallery Preview</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </Slider>
         </div>
-        <Slider
-          {...sliderProps.projectsSliderOne}
-          className="projects-slider-one wow fadeInDown"
-        >
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-1.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                  
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-2.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                  
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-3.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                 
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-4.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                 
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-13.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                 
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-6.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                 
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-7.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                 
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/*====== Single Gallery Item ======*/}
-          <div className="single-project-item">
-            <div className="project-img">
-              <img src="assets/images/gallery-sankar/gl-8.png" alt="Gallery Image" />
-              <div className="hover-content">
-                <div className="text text-white">
-                 
-                  <a href="#">Sankar Ayush: Excellence in Gallery</a>
-                </div>
-                <Link legacyBehavior href="/project-details">
-                  <a className="icon-btn">
-                    <i className="fal fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </Slider>
       </section>
       {/*====== End Gallery Section ======*/}
 
 
       {/*====== Start Why Choose us Section ======*/}
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <section className="working-process-section pt-100 pb-100">
+      <section className="working-process-section pt-100 pb-100 mt-5">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-12">
@@ -827,7 +841,7 @@ Discover our gallery featuring high-quality products, advanced manufacturing pro
       {/*====== End Why Choose us Section ======*/}
 
       {/*====== Start Features Section ======*/}
-      <section className="features-seciton pb-50">
+      <section className="features-seciton pb-50 mt-5">
         <div className="container">
           <div className="row align-items-xl-end">
             <div className="col-lg-6">
