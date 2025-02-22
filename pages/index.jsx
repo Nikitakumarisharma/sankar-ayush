@@ -64,7 +64,7 @@ const Index = () => {
   {/* Background Video */}
   <div className="video-container">
     <video autoPlay loop muted playsInline className="hero-bg-video">
-      <source src="/assets/videos/ayush.mp4" type="video/mp4" />
+      <source src="/assets/videos/sanskarAyush.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     {/* Black Overlay */}
