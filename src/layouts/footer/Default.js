@@ -65,7 +65,7 @@ const Default = () => {
                       <a href="#">Blog</a>
                     </li>
                     <li>
-                      <a href="#">Our Galary</a>
+                      <a href="#">Our Gallery</a>
                     </li>
                   </ul>
                 </div>

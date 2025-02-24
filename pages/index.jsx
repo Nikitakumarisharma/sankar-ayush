@@ -302,7 +302,7 @@ const Index = () => {
                     </span>
                   Services We Provide
                 </span>
-                <h2>Get Ayurvedic third party manufacturing with your Brand Name</h2>
+                <h2>Get Ayurvedic third party manufecturing with your Brand Name</h2>
               </div>
             </div>
           </div>
